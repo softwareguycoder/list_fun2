@@ -55,6 +55,6 @@ void PrintPoint(void* pvPoint) {
     return;
   }
 
-  printf("(x,y) = (%d, %d).\n",
+  printf(PRINT_POINT_FORMAT,
       ((LPPOINT)pvPoint)->x, ((LPPOINT)pvPoint)->y);
 }

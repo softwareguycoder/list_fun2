@@ -44,6 +44,11 @@
   "Opening the file '%s'...\n"
 #endif //OPENING_FILE
 
+#ifndef PRINT_POINT_FORMAT
+#define PRINT_POINT_FORMAT \
+  "(x,y) = (%d, %d)\n"
+#endif //PRINT_POINT_FORMAT
+
 #ifndef READING_POINTS_FROM_FILE
 #define READING_POINTS_FROM_FILE \
   "Reading points from the file '%s'...\n"
