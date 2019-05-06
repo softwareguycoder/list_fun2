@@ -4,6 +4,11 @@
 #ifndef __LIST_FUN2_SYMBOLS_H__
 #define __LIST_FUN2_SYMBOLS_H__
 
+#ifndef DEALLOCATING_LINKED_LIST
+#define DEALLOCATING_LINKED_LIST \
+  "Clearing the linked list from memory...\n"
+#endif //DEALLOCATING_LINKED_LIST
+
 #ifndef FAILED_OPEN_FILE
 #define FAILED_OPEN_FILE \
   "Failed to open file '%s'.\n"
