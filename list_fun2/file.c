@@ -7,7 +7,7 @@
 #include "file.h"
 
 void OpenFile(const char* pszPathName, FILE** ppFile) {
-  if (pszPathName == NULL || pszPathName[0] == '\0') {
+  if (IsNullOrWhiteSpace(pszPathName)) {
     return;
   }
 
