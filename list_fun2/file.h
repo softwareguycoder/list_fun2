@@ -1,9 +1,5 @@
-/*
- * file.h
- *
- *  Created on: May 2, 2019
- *      Author: bhart
- */
+// file.h - Interface for basic File I/O
+//
 
 #ifndef __FILE_H__
 #define __FILE_H__
