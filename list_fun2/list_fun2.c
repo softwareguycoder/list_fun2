@@ -32,8 +32,7 @@ int main(int argc, char *argv[]) {
     exit(ERROR);
   }
 
-  fprintf(stdout,
-      "The file '%s' was opened successfully.\n", szFileName);
+  fprintf(stdout, FILE_OPENED_OK, szFileName);
 
   fprintf(stdout,
       "Reading points from the file '%s'...\n", szFileName);
