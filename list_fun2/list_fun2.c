@@ -95,5 +95,5 @@ void ParseCommandLine(char *argv[], char* pszFileName) {
 }
 
 void PrintUsageMessage() {
-  fprintf(stdout, "Usage: ./list_fun2 <file>\n");
+  fprintf(stdout, USAGE_MESSAGE);
 }
