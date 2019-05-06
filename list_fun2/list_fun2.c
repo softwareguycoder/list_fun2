@@ -34,8 +34,7 @@ int main(int argc, char *argv[]) {
 
   fprintf(stdout, FILE_OPENED_OK, szFileName);
 
-  fprintf(stdout,
-      "Reading points from the file '%s'...\n", szFileName);
+  fprintf(stdout, READING_POINTS_FROM_FILE, szFileName);
 
   int components[2] = { 0 }; /* the coordinates of point P */
 
