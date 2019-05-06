@@ -39,6 +39,11 @@
   "%d point(s) are in the list.\n"
 #endif //NUM_POINTS_IN_LIST
 
+#ifndef OPENING_FILE
+#define OPENING_FILE \
+  "Opening the file '%s'...\n"
+#endif //OPENING_FILE
+
 #ifndef READING_POINTS_FROM_FILE
 #define READING_POINTS_FROM_FILE \
   "Reading points from the file '%s'...\n"
