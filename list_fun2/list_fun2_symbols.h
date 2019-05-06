@@ -19,6 +19,11 @@
   "Failed to open file '%s'.\n"
 #endif //FAILED_OPEN_FILE
 
+#ifndef FILE_CLOSED
+#define FILE_CLOSED \
+  "The file '%s' has been closed.\n"
+#endif //FILE_CLOSED
+
 #ifndef FILE_OPENED_OK
 #define FILE_OPENED_OK \
   "The file '%s' was opened successfully.\n"
