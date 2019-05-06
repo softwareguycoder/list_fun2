@@ -17,8 +17,7 @@ void OpenFile(const char* pszPathName, FILE** ppFile) {
 
   *ppFile = fopen(pszPathName, "r");
   if (*ppFile == NULL) {
-    fprintf(stderr, "Failed to open file '%s'.\n",
-        pszPathName);
+    fprintf(stderr, FAILED_OPEN_FILE, pszPathName);
     exit(ERROR);
     return; // open failed
   }

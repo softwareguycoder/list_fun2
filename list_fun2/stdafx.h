@@ -13,6 +13,8 @@
 #include <string.h>
 #include <unistd.h>
 
+#include "list_fun2_symbols.h"
+
 #include <../../api_core/api_core/include/api_core.h>
 #include <../../common_core/common_core/include/common_core.h>
 #include <../../list_core/list_core/include/list_core.h>
