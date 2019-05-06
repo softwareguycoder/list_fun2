@@ -28,7 +28,7 @@ int main(int argc, char *argv[]) {
   FILE *pFile = NULL;
   OpenFile(szFileName, &pFile);
   if (pFile == NULL) {
-    fprintf(stderr, "ERROR: Failed to open file.\n");
+    fprintf(stderr, FAILED_OPEN_FILE, szFileName);
     exit(ERROR);
   }
 
