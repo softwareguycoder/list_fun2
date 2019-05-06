@@ -59,8 +59,7 @@ int main(int argc, char *argv[]) {
 
   fprintf(stdout, NUM_POINTS_IN_LIST, nCount);
 
-  fprintf(stdout,
-      "Closing the file '%s'...\n", szFileName);
+  fprintf(stdout, CLOSING_FILE, szFileName);
 
   CloseFile(pFile);
 
