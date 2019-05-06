@@ -40,7 +40,7 @@ int main(int argc, char *argv[]) {
 
   LPPOSITION lpCur = NULL;
 
-  while (EOF != fscanf(pFile, "%d%d", components, components + 1)) {
+  while (EOF != fscanf(pFile, FILE_FORMAT, components, components + 1)) {
     AddElement(&lpCur, CreatePoint(components[0], components[1]));
 
     LPPOINT lpCurPoint = (LPPOINT) (lpCur->pvData);
