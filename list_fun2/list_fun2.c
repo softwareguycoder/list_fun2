@@ -41,10 +41,9 @@ int main(int argc, char *argv[]) {
 
   while (EOF != fscanf(pFile, FILE_FORMAT, components, components + 1)) {
     AddElement(&lpCur, CreatePoint(components[0], components[1]));
-
-    LPPOINT lpCurPoint = (LPPOINT) (lpCur->pvData);
-    PrintPoint(lpCurPoint);
   }
+
+  DoForEach(lpCur, PrintPoint);
 
   int nCount = GetElementCount(lpCur);
 
