@@ -4,6 +4,11 @@
 #ifndef __LIST_FUN2_SYMBOLS_H__
 #define __LIST_FUN2_SYMBOLS_H__
 
+#ifndef CLOSING_FILE
+#define CLOSING_FILE \
+  "Closing the file '%s'...\n"
+#endif //CLOSING_FILE
+
 #ifndef DEALLOCATING_LINKED_LIST
 #define DEALLOCATING_LINKED_LIST \
   "Clearing the linked list from memory...\n"
