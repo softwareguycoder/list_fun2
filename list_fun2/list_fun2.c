@@ -49,7 +49,7 @@ int main(int argc, char *argv[]) {
 
   int nCount = GetElementCount(lpCur);
 
-  fprintf(stdout, "%d point(s) are in the list.\n", nCount);
+  fprintf(stdout, NUM_POINTS_IN_LIST, nCount);
 
   fprintf(stdout,
       "Clearing the linked list from memory...\n");
