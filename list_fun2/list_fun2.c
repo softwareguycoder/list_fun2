@@ -51,8 +51,7 @@ int main(int argc, char *argv[]) {
 
   fprintf(stdout, NUM_POINTS_IN_LIST, nCount);
 
-  fprintf(stdout,
-      "Clearing the linked list from memory...\n");
+  fprintf(stdout, DEALLOCATING_LINKED_LIST);
 
   ClearList(&lpCur, DestroyPoint);
 
