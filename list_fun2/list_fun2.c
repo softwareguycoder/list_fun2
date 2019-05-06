@@ -58,7 +58,7 @@ int main(int argc, char *argv[]) {
 
   nCount = GetElementCount(lpCur);
 
-  fprintf(stdout, "%d point(s) are in the list.\n", nCount);
+  fprintf(stdout, NUM_POINTS_IN_LIST, nCount);
 
   fprintf(stdout,
       "Closing the file '%s'...\n", szFileName);
