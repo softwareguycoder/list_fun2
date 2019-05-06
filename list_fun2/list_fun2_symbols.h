@@ -14,6 +14,11 @@
   "The file '%s' was opened successfully.\n"
 #endif //FILE_OPENED_OK
 
+#ifndef FILE_FORMAT
+#define FILE_FORMAT \
+  "%d%d"
+#endif //FILE_FORMAT
+
 #ifndef READING_POINTS_FROM_FILE
 #define READING_POINTS_FROM_FILE \
   "Reading points from the file '%s'...\n"
