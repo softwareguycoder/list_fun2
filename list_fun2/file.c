@@ -1,9 +1,5 @@
-/*
- * file.c
- *
- *  Created on: May 2, 2019
- *      Author: bhart
- */
+// file.c - Implementations for basic file I/O routines
+//
 
 #include "stdafx.h"
 #include "list_fun2.h"
