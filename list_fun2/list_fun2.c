@@ -63,8 +63,7 @@ int main(int argc, char *argv[]) {
 
   CloseFile(pFile);
 
-  fprintf(stdout,
-      "The file '%s' has been closed.\n", szFileName);
+  fprintf(stdout, FILE_CLOSED, szFileName);
 
   return 0;
 }
