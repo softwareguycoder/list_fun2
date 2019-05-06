@@ -22,8 +22,7 @@ int main(int argc, char *argv[]) {
 
   ParseCommandLine(argv, szFileName);
 
-  fprintf(stdout,
-      "Opening the file '%s'...\n", szFileName);
+  fprintf(stdout, OPENING_FILE, szFileName);
 
   FILE *pFile = NULL;
   OpenFile(szFileName, &pFile);
