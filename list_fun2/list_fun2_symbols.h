@@ -49,4 +49,9 @@
   "Reading points from the file '%s'...\n"
 #endif //READING_POINTS_FROM_FILE
 
+#ifndef USAGE_MESSAGE
+#define USAGE_MESSAGE \
+  "Usage: ./list_fun2 <file>\n"
+#endif //USAGE_MESSAGE
+
 #endif /* __LIST_FUN2_SYMBOLS_H__ */
