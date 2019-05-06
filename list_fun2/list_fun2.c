@@ -85,8 +85,7 @@ BOOL CheckCommandLine(int argc, char *argv[]) {
   }
 
   if (OK != access(argv[1], R_OK)) {
-    fprintf(stderr, "ERROR: Cannot open the file '%s' for reading.\n",
-        argv[1]);
+    fprintf(stderr, FAILED_OPEN_FILE, argv[1]);
     return FALSE;
   }
 
