@@ -19,6 +19,11 @@
   "%d%d"
 #endif //FILE_FORMAT
 
+#ifndef NUM_POINTS_IN_LIST
+#define NUM_POINTS_IN_LIST \
+  "%d point(s) are in the list.\n"
+#endif //NUM_POINTS_IN_LIST
+
 #ifndef READING_POINTS_FROM_FILE
 #define READING_POINTS_FROM_FILE \
   "Reading points from the file '%s'...\n"
