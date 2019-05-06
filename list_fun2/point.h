@@ -16,6 +16,6 @@ typedef struct _tagPOINT {
 LPPOINT CreatePoint(int x, int y);
 void DestroyPoint(void* pvPoint);
 BOOL PointEquals(void* pvPoint1, void* pvPoint2);
-void PrintPoint(LPPOINT lpPoint);
+void PrintPoint(void* pvPoint);
 
 #endif /* __POINT_H__ */

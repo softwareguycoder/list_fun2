@@ -50,11 +50,11 @@ BOOL PointEquals(void* pvPoint1, void* pvPoint2) {
       && lpPoint1->y == lpPoint2->y;
 }
 
-void PrintPoint(LPPOINT lpPoint) {
-  if (lpPoint == NULL) {
+void PrintPoint(void* pvPoint) {
+  if (pvPoint == NULL) {
     return;
   }
 
   printf("(x,y) = (%d, %d).\n",
-      lpPoint->x, lpPoint->y);
+      ((LPPOINT)pvPoint)->x, ((LPPOINT)pvPoint)->y);
 }
